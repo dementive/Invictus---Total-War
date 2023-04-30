@@ -1,0 +1,8 @@
+﻿shares_roman_heritage_opinion = {
+	value = 400
+}
+
+roman_unity_opinion_boost = {
+	value = 150
+	yearly_decay = 20
+}

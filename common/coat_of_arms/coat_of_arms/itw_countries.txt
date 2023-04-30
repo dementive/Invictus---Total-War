@@ -1,0 +1,100 @@
+﻿# Rome total war rome flags made by Dementive
+
+QBR = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "green"
+
+	colored_emblem = {
+		texture = "ce_brutii.dds"
+		color1 = "bone_white"
+		instance = {
+			scale = { 1.1 1.1 }
+		}
+	}
+}
+
+QJU = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+	color2 = "roman_gold"
+
+	textured_emblem = {
+		texture = "te_julii.dds"
+		instance = {
+			scale = { 0.92 0.775 }
+			position = { 0.5 0.51 }
+		}
+	}
+}
+
+QSC = {
+	pattern = "pattern_solid.tga"
+	color1 = "romans_scipii"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_scipii.dds"
+		color1 = "bone_white"
+		instance = {
+			position = { 0.5 0.52 }
+			scale = { 1.05 1.05 }
+		}
+	}
+}
+
+ROM = {
+	pattern = "pattern_solid.tga"
+	color1 = "romans_senate"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_senate.dds"
+		color1 = "bone_white"
+		instance = {
+			position = { 0.5 0.52 }
+			scale = { 1.1 1.0 }
+		}
+	}
+}
+
+CAR = {
+	pattern = "pattern_solid.tga"
+	color1 = "carthage_white"
+	color2 = "carthage_white"
+	colored_emblem = {
+		texture = "ce_tanit_01.dds"
+		color1 = "dobunnia_dark_blue"
+		instance = {
+			scale = { 0.95 0.95 }
+		}
+	}
+}
+
+MAC = {
+	pattern = "pattern_solid.tga"
+	color1 = "pitch_black"
+	color2 = "roman_gold"
+
+	textured_emblem = {
+		texture = "te_macedon.dds"
+		instance = {
+			scale = { 0.85 0.85 }
+		}
+	}
+}
+
+
+MSY = {
+	pattern = "pattern_solid.tga"
+	color1 = "phokaian_blue"
+	color2 = "phokaian_blue"
+	colored_emblem = {
+		texture = "ce_numidia.dds"
+		color1 = "pitch_black"
+		color2 = "carthage_white"
+		instance = {
+			scale = { 0.95 0.95 }
+		}
+	}	
+}

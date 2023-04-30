@@ -1,0 +1,37 @@
+﻿yearly_country_pulse = {
+	on_actions = {
+		itw_yearly_pulse
+	}
+}
+
+itw_yearly_pulse = {
+
+	events = {
+		itw_events.1
+	}
+
+	effect = {
+		if = {
+			limit = {
+				current_date < 460.1.1
+				exists = c:QSC
+				c:QSC = {
+					is_ai = yes
+				}
+				tag = QSC
+			}
+			random_port = {
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						while = {
+							count = 3
+							add_subunit = liburnian
+						}
+					}
+				}
+			}
+		}
+	}
+}

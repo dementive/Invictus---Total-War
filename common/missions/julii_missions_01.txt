@@ -1,0 +1,119 @@
+﻿julii_01_missions = {
+    icon = rome_1
+    header = mission_image_rome
+
+    repeatable = no
+
+
+    potential = {
+    	tag = QJU
+    	NOT = { has_variable = julii_mission_cooldown }
+    }
+
+    abort = {}
+
+    on_start = {
+        add_country_modifier = {
+            name = julii_start_modifier
+            duration = 18250
+        }
+    }
+
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = julii_mission_cooldown
+            days = 7300
+        }
+    }
+
+    on_completion = {
+        add_4_free_province_investments = yes
+        #add_country_modifier = {
+        #	name = united_aksumite_power
+        #	duration = -1
+        #}
+       	current_ruler = {
+       		add_finesse = 2
+       		add_martial = 2
+       	}
+    }
+
+    julii_01_missions_task_1 = {
+        icon = "task_political"
+
+        potential = {}
+
+        allow = {}
+
+        on_completion = {}
+    }
+
+    julii_01_missions_task_2 = {
+        icon = "task_political"
+
+        potential = {}
+
+        allow = {}
+
+        on_completion = {}
+    }
+
+    julii_01_missions_task_3 = {
+        icon = "task_political"
+
+        potential = {}
+
+        allow = {}
+
+        on_completion = {}
+    }
+
+    julii_01_missions_task_4 = {
+        icon = "task_political"
+        requires = { julii_01_missions_task_1 }
+
+        potential = {}
+
+        allow = {}
+
+        on_completion = {}
+    }
+
+    julii_01_missions_task_5 = {
+        icon = "task_political"
+        requires = { julii_01_missions_task_2 }
+
+        potential = {}
+
+        allow = {}
+
+        on_completion = {}
+    }
+
+    julii_01_missions_task_6 = {
+        icon = "task_political"
+        requires = { julii_01_missions_task_3 }
+
+        potential = {}
+
+        allow = {}
+
+        on_completion = {}
+    }
+
+    julii_01_missions_task_final = {
+        icon = "task_political"
+        requires = { julii_01_missions_task_4 julii_01_missions_task_5 julii_01_missions_task_6 }
+
+        final = yes
+
+        potential = {}
+
+        allow = {
+            is_ai = no
+        }
+
+        on_completion = {}
+    }
+}

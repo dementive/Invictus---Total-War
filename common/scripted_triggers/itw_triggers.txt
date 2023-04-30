@@ -1,0 +1,36 @@
+﻿roman_unity_wargoal_trigger = {
+	trigger_if = {
+		limit = {
+			NOT = { has_global_variable = roman_unity_broken }
+		}
+		trigger_if = {
+			limit = {
+				tag = ROM
+				is_ai = yes
+			}
+			always = no
+		}
+		trigger_if = {
+			limit = {
+				OR = {
+					tag = ROM
+					tag = QBR
+					tag = QJU
+					tag = QSC
+				}
+			}
+			scope:defender = {
+				NOR = {
+					tag = ROM
+					tag = QBR
+					tag = QJU
+					tag = QSC
+					is_subject_of = c:ROM
+					is_subject_of = c:QBR
+					is_subject_of = c:QJU
+					is_subject_of = c:QSC
+				}
+			}
+		}
+	}
+}

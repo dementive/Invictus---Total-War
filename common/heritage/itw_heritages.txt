@@ -1,0 +1,64 @@
+﻿senate_roman_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 4
+		diplomatic_reputation = 2
+		levy_size_multiplier = 0.05
+		
+		#bad
+		naval_morale_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = ROM
+	}
+}
+
+
+julii_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 3
+		levy_size_multiplier = 0.025
+		global_pop_assimilation_speed_modifier = 0.025
+		
+		#bad
+		naval_morale_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = QJU
+	}
+}
+
+scipii_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 3
+		integrate_speed = 0.1
+		naval_morale_modifier = 0.05
+		
+		#bad
+		land_morale_modifier = -0.025
+	}
+	
+	trigger = {
+		tag = QSC
+	}
+}
+
+brutii_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 3
+		integrate_speed = 0.1
+		land_morale_modifier = 0.05
+		
+		#bad
+		general_loyalty = -3
+	}
+	
+	trigger = {
+		tag = QBR
+	}
+}

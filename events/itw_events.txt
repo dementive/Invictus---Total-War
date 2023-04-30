@@ -1,0 +1,47 @@
+﻿namespace = itw_events
+
+
+itw_events.1 = {
+    type = country_event
+    title = itw_events.1.t
+    desc = itw_events.1.desc
+    picture = latin_roman_path_2_event
+
+    trigger = {
+        trigger_if = {
+            limit = {
+                exists = c:QSC
+            }
+            c:QSC = {
+                # The trigger to overthrow rome and stop the Roman unity
+                num_of_cities > 500
+            }
+        }
+        trigger_else_if = {
+            limit = {
+                exists = c:QBR
+            }
+            c:QBR = {
+                # The trigger to overthrow rome and stop the Roman unity
+                num_of_cities > 500
+            }
+        }
+        trigger_else_if = {
+            limit = {
+                exists = c:QJU
+            }
+            c:QJU = {
+                # The trigger to overthrow rome and stop the Roman unity
+                num_of_cities > 500
+            }
+        }
+        trigger_else = {
+            always = no
+        }
+    }
+    
+    option = {      
+        name = itw_events.1.a
+        set_global_variable = roman_unity_broken
+    }
+}

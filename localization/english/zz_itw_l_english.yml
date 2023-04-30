@@ -1,0 +1,33 @@
+﻿l_english:
+
+
+QBR:0 "Brutii"
+QBR_ADJ:0 "Brutii"
+QJU:0 "Julii"
+QJU_ADJ:0 "Julii"
+QSC:0 "Scipii"
+QSC_ADJ:0 "Scipii"
+QSS:0 "Roman Senate"
+QSS_ADJ:0 "Roman Senate"
+
+
+senate_roman_heritage:0 "Roman Senate"
+senate_roman_heritage_desc:0 "$roman_heritage_desc$"
+julii_heritage:0 "Julii Heritage"
+julii_heritage_desc:0 ""
+scipii_heritage:0 "Scipii Heritage"
+scipii_heritage_desc:0 ""
+brutii_heritage:0 "Brutii Heritage"
+brutii_heritage_desc:0 ""
+
+shares_roman_heritage_opinion:0 "Shares Roman Heritage"
+roman_unity_opinion_boost:0 "Roman Unity"
+
+scipii_start_modifier:0 "Scipii"
+brutii_start_modifier:0 "Brutii"
+julii_start_modifier:0 "Julii"
+roman_senate_start_mod:0 "Roman Senate"
+
+itw_game_start.1.t:0 "Total War"
+itw_game_start.1.desc:0 ""
+itw_game_start.1.a:0 "The Senate will lead us forward"

@@ -1,0 +1,25 @@
+﻿namespace = itw_test
+
+
+itw_test.1 = {
+    type = country_event
+    title = itw_test.1.t
+    desc = itw_test.1.desc
+    picture = aqueducts
+    
+    option = {      
+        name = itw_test.1.a
+        #change_country_flag = QBR
+        #change_country_color = green
+
+        #change_country_flag = QJU
+        #change_country_color = roman_red
+
+        #change_country_flag = QSC
+        #change_country_color = romans_scipii
+
+
+        change_country_flag = QSS
+        change_country_color = romans_senate
+    }
+}

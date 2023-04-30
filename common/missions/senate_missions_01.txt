@@ -1,0 +1,254 @@
+﻿#roman_senate_missions = {
+#	icon = rome_1
+#	header = mission_image_rome
+
+#    repeatable = yes
+
+#    potential = {
+#    	tag = ROM
+#    	NOT = { has_variable = senate_mission_cooldown }
+#        any_owned_province = {
+#            percent > 75
+#            is_in_area = roma_area
+#        }
+#    }
+
+#    abort = {
+#        any_active_war = {
+#            attacker_warleader = root
+#        }
+#    }
+
+#    on_start = {
+#        # Save 3 province scopes for the 3 mission branches. Don't use provinces that have been used in the last 20 years
+
+#        # If there are not 3 provinces to save, clear the 3 smallest population provinces with variables
+#        if = {
+#            limit = {
+#                any_owned_province = {
+#                    count < 3
+#                    is_in_area = roma_area
+#                    NOT = { has_variable = roma_city_dev_var }    
+#                }
+#            }
+#            ordered_owned_province = {
+#                limit = {
+#                    is_in_area = roma_area
+#                    has_variable = roma_city_dev_var
+#                }
+#                order_by = {
+#                    value = 0
+#                    subtract = total_population
+#                }
+#                max = 3
+#                remove_variable = roma_city_dev_var
+#            }
+#        }
+
+#        ordered_owned_province = {
+#            limit = {
+#                is_in_area = roma_area
+#                NOT = { has_variable = roma_city_dev_var }
+#            }
+#            order_by = total_population
+#            max = 3
+#            add_to_list = roma_mission_list
+#        }
+
+#        ordered_in_list = {
+#            list = roma_mission_list
+#            order_by = total_population
+#            position = 0
+#            root = {
+#                set_variable = {
+#                    name = roma_dev_province_one
+#                    value = prev
+#                }
+#            }
+#        }
+#        if = {
+#            limit = {
+#                list_size = {
+#                    name = roma_mission_list
+#                    value >= 2
+#                }
+#            }
+#            ordered_in_list = {
+#                list = roma_mission_list
+#                order_by = total_population
+#                position = 1
+#                root = {
+#                    set_variable = {
+#                        name = roma_dev_province_two
+#                        value = prev
+#                    }
+#                }
+#            }
+#        }
+#        if = {
+#            limit = {
+#                list_size = {
+#                    name = roma_mission_list
+#                    value >= 3
+#                }
+#            }
+#            ordered_in_list = {
+#                list = roma_mission_list
+#                order_by = total_population
+#                position = 2
+#                root = {
+#                    set_variable = {
+#                        name = roma_dev_province_three
+#                        value = prev
+#                    }
+#                }
+#            }
+#        }
+
+#        every_in_list = {
+#            list = roma_mission_list
+#            set_variable = {
+#                name = roma_city_dev_var
+#                days = 7300
+#            }
+#        }
+
+#        if = {
+#            limit = {
+#                has_variable = roma_dev_province_one
+#            }
+#            var:roma_dev_province_one = {
+                
+#            }
+#        }
+#    }
+
+#    on_abort = {
+#        custom_tooltip = general_mission_cooldown_tt
+#        set_variable = {
+#            name = senate_mission_cooldown
+#            days = 730
+#        }
+#        remove_variable = roma_dev_province_one
+#        remove_variable = roma_dev_province_two
+#        remove_variable = roma_dev_province_three
+#    }
+
+#    on_completion = {
+#        add_4_free_province_investments = yes
+#        add_country_modifier = {
+#        	name = itw_glory_of_rome_mod
+#        	duration = -1
+#            mode = add
+#        }
+#       	current_ruler = {
+#       		add_finesse = 2
+#       		add_martial = 2
+#       	}
+#        remove_variable = roma_dev_province_one
+#        remove_variable = roma_dev_province_two
+#        remove_variable = roma_dev_province_three
+#    }
+
+#    roman_senate_missions_task_1 = {
+#        icon = "task_political"
+
+#        potential = {
+#            has_variable = roma_dev_province_one
+#            exists = var:roma_dev_province_one
+#        }
+
+#        allow = {
+#            var:roma_dev_province_one = {
+
+#            }
+#        }
+
+#        on_completion = {}
+#    }
+
+#    roman_senate_missions_task_2 = {
+#        icon = "task_political"
+
+#        potential = {
+#            has_variable = roma_dev_province_two
+#            exists = var:roma_dev_province_two
+#        }
+
+#        allow = {}
+
+#        on_completion = {}
+#    }
+
+#    roman_senate_missions_task_3 = {
+#        icon = "task_political"
+
+#        potential = {
+#            has_variable = roma_dev_province_three
+#            exists = var:roma_dev_province_three
+#        }
+
+#        allow = {}
+
+#        on_completion = {}
+#    }
+
+#    roman_senate_missions_task_4 = {
+#        icon = "task_political"
+#        requires = { roman_senate_missions_task_1 }
+
+#        potential = {
+#            has_variable = roma_dev_province_one
+#            exists = var:roma_dev_province_one
+#        }
+
+#        allow = {}
+
+#        on_completion = {}
+#    }
+
+#    roman_senate_missions_task_5 = {
+#        icon = "task_political"
+#        requires = { roman_senate_missions_task_2 }
+
+#        potential = {
+#            has_variable = roma_dev_province_two
+#            exists = var:roma_dev_province_two
+#        }
+
+#        allow = {}
+
+#        on_completion = {}
+#    }
+
+#    roman_senate_missions_task_6 = {
+#        icon = "task_political"
+#        requires = { roman_senate_missions_task_3 }
+
+#        potential = {
+#            has_variable = roma_dev_province_three
+#            exists = var:roma_dev_province_three
+#        }
+
+#        allow = {}
+
+#        on_completion = {}
+#    }
+
+#    roman_senate_missions_task_final = {
+#        icon = "task_political"
+#        requires = { roman_senate_missions_task_4 roman_senate_missions_task_5 roman_senate_missions_task_6 }
+#        final = yes
+
+#        allow = {
+#            treasury > 150
+#            war = no
+#        }
+
+#        on_completion = {
+#            add_treasury = -150
+#            add_stability = 25
+#            add_political_influence = 50
+#        }
+#    }
+#}

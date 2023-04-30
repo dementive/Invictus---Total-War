@@ -1,0 +1,11 @@
+﻿on_game_initialized = {
+	on_actions = {
+		itw_game_start_pulse
+	}
+}
+
+itw_game_start_pulse = {
+	effect = {
+		add_roman_unity_opinions = yes
+	}
+}

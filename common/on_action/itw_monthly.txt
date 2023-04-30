@@ -1,0 +1,11 @@
+﻿monthly_country_pulse = {
+	on_actions = {
+		itw_monthly_pulse
+	}
+}
+
+itw_monthly_pulse = {
+	effect = {
+		monthly_roman_unity_effect = yes
+	}
+}

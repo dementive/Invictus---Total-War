@@ -1,0 +1,18 @@
+﻿scipii_start_modifier = {
+	navy_maintenance_cost = -0.2
+	naval_damage_done = 0.05
+	global_commerce_modifier = 0.075
+}
+brutii_start_modifier = {
+	global_state_trade_routes = 1
+	discipline = 0.05
+}
+julii_start_modifier = {
+	land_morale_modifier = 0.05
+	levy_size_multiplier = 0.075
+}
+
+roman_senate_start_mod = {
+	global_capital_trade_routes = 3
+	country_civilization_value = 10
+}

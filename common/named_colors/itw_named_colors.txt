@@ -1,0 +1,4 @@
+﻿colors = {
+	romans_scipii = rgb { 25 90 158 }
+	romans_senate = rgb { 122 51 180 }
+}
