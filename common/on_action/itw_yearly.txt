@@ -11,6 +11,7 @@ itw_yearly_pulse = {
 	}
 
 	effect = {
+		# Scipii AI gets extra boats at the start of the game
 		if = {
 			limit = {
 				current_date < 460.1.1
@@ -22,11 +23,12 @@ itw_yearly_pulse = {
 			}
 			random_port = {
 				owner = {
+					add_treasury = 100
 					create_unit = {
 						navy = yes
 						location = prev.prev
 						while = {
-							count = 3
+							count = 2
 							add_subunit = liburnian
 						}
 					}

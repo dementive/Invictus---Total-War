@@ -1,5 +1,6 @@
 ﻿color = rgb { 16 99 104 }
 color2 = rgb { 16 99 104 }
+
 ship_names = {
 	Babba
 	Banasa

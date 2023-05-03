@@ -1,6 +1,6 @@
 ﻿namespace = itw_events
 
-
+# Temporary event before senate mechanic
 itw_events.1 = {
     type = country_event
     title = itw_events.1.t

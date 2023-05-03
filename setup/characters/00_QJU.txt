@@ -1,0 +1,24 @@
+﻿"QJU"={
+	country="QJU"
+	510={
+		first_name="Flavius"
+		family = c:QJU.fam:Julii
+		birth_date=415.2.11
+		culture="roman"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=9
+		add_charisma=6
+		add_finesse=6
+		add_zeal=7
+		no_traits=yes
+		add_trait="aggressive"
+		add_trait="ambitious"
+		add_gold=500
+		add_popularity=50
+		c:QJU={
+			set_as_ruler=char:510
+		}
+		dna="COgI6I9jj2Osvqy+BMgEyAKWApYCigKKAmsCawKBAoECewJ7AoYChgJ0AnQBXAFcApQClAJ1AnUCjwKPAnUCdQKEAoQCeQJ5AoECgQJ/An8CawJrAogCiAJtAm0CjgKOAVYBVgJ6AnoCfgJ+AmwCbAKBAoECawJrAngCeAKNAo0CeAJ4Am8CbwJ8AnwDqQOpA6gDqAJqAmoCcgJyAo4CjgKFAoUCggKCAVQBVAKVApUCfQJ9AmsCawKAAoACmAKYAoUChQKIAogClgKWApICkgKUApQDpgOmAn8CfwOmA6YClgKWAnMCcwK2ArYBPQE9AVsBWwDpAOkA3ADcASsBKwAtAC0AQABAAXMBcwE0ATQAPwA/AJsAmwB/AH8AEQARAL0AvQAJAAkBDgEOAMcAxwBuAG4B6wHrAogCiAB/AH8AEwATAAUABQCsAKwASwBLANMA0wEHAQcBGgEaBNsE2wCzALMDZQNlAKUApQBLAEsAigS3AH8AfwFoAWgB2gHaAIoAigl2CXYBlQFlAN0A3QAAAAAAAAAAAAAAAA=="
+	}
+}

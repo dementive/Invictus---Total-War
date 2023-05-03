@@ -1,0 +1,24 @@
+﻿"QBR"={
+	country="QBR"
+	511={
+		first_name="Tiberius"
+		family = c:QBR.fam:Brutii
+		birth_date=413.2.21
+		culture="roman"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=9
+		add_zeal=6
+		no_traits=yes
+		add_trait="well_connected"
+		add_trait="ambitious"
+		add_gold=500
+		add_popularity=50
+		c:QBR={
+			set_as_ruler=char:511
+		}
+		dna="DPsM+4dih2J9f31/ApMCkwJmAmYCbwJvAoMCgwJvAm8CjgKOAo0CjQKSApICjwKPAmcCZwKJAogCfgJ+AnACcAKCAoICgQKBAmgCaAJmAmYDrwOvAn8CfwKBAoECZwJnAn8CfwJ4AngCcgJyAnQCdAKNAo0ChQKFAnQCdAFbAVsChwKHAocChwJ0AnQCkwKTAnICcgKXApcCfgJ+AokCiQJzAnMCaAJoAmoCagFYAVgCdgJ2AmcCZwAdAB0CcwJzAooCigKMAowChQKFApgCmAKEAoQCiAKIAnYCdgJuAm4BZgFmAnYCdgErASsA4wDjAJMAkwEJAQkAagBqAN4A3gCuAK4AvwC/AvoC+gAcABwACAAIAVUBVQB/AH8AFgAWAN4A3gFiAWICtQK1AX0BfQKdAp0ATwBPAr4CvgB/AH8CkQKRAGgAaAL/Av8CvwK/AoYChgMuAy4A2QDZAIoAigL9Av0AogCiA0oDSgAqACoMcQxxAHQAfwBEAEQBdwGLAJcAlwkKCQoByAE5AB4A3gAAAAAAAAAAAAAAAA=="
+	}
+}

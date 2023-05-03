@@ -1,0 +1,24 @@
+﻿"QSC"={
+	country="QSC"
+	509={
+		first_name="Cornelius"
+		family = c:QSC.fam:Scipii
+		birth_date=411.9.21
+		culture="roman"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=6
+		add_finesse=11
+		add_zeal=7
+		no_traits=yes
+		add_trait="intelligent"
+		add_trait="ambitious"
+		add_gold=500
+		add_popularity=50
+		c:QSC={
+			set_as_ruler=char:509
+		}
+		dna="EPEQ8ZlwmXCv2q/aAVgBWAKFAoUCdgJ2AmcCZwKBAoECkQKRAV0BXQJ0AnQCZgJmAoECgQKQApACdgJ2AoACgAJpAmkCgAKAAokCiQOxA7EARABEAowCjAFiAWICZwJnAmsCawOtA60CeQJ5AoICggJ0AnQCbgJuAoYChgKBAoECkgKSAn4CfgKTApMCawJrBLMEswKLAosCbgJuAowCjAKOAo4CbgJuAnkCeQKAAoAClQKVACwALAJrAmsCcgJyABwAHAKRApECgwKDApECkQJ7AnsChwKHAoMCgwJ4AngCaAJoAm4CbgKQApAAnwCfALoAugD+AP4A7ADsAX4BfgB+AH4CqgKqAQoBCgAnACcCvgK+ACMAIwB/AH8ARQBFADUANQElASUBTQFNAukC6QDyAPIA0wDTANYA1gB/AH8A5ADkAQUBBQKvAq8AsgCyAXkBeQLdAt0BRQFFAoYChgAdAB0DSwNLAykDKQAuAC4G6gaXAH8AfwE0ATQB2gHaAMEAwQk9CT0B1wFHAMoAqwAAAAAAAAAAAAAAAA=="
+	}
+}

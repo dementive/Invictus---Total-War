@@ -6894,7 +6894,7 @@ country = {
 			capital = 89
 
 			own_control_core = 	{
-				89 7839
+				89
 			}
 
 		}
@@ -7272,7 +7272,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				82 83 84 88 101 87 7837 7838 7840
+				83 84 88 101 87 7837 7840
 			}
 
 		}
@@ -16404,10 +16404,10 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 100
+			capital = 98
 
 			own_control_core = {
-				100 98
+				98
 			}
 		}
 

@@ -9,6 +9,29 @@ diplomacy = {
 	alliance = { first = QBR second = QJU }
 }
 
+family={
+	families={
+		9354 = {
+			key = "Brutii"
+			prestige=300
+			culture=roman
+			owner=QBR
+		}
+		9355 = {
+			key = "Julii"
+			prestige=300
+			culture=roman
+			owner=QJU
+		}
+		9356 = {
+			key = "Scipii"
+			prestige=300
+			culture=roman
+			owner=QSC
+		}
+	}
+}
+
 country = {
 	countries = {
 
@@ -34,9 +57,16 @@ country = {
 				{ deity = 4 }
 			}
 
-			capital = 50
+			capital = 66
+			family = 9354
 			own_control_core = 	{
-				50 36 39 37 69 58 66 67 57 62 63 64 60 70 71 59 53 61 13 51 77 79 42
+				50 36 39 37 69 58 66 67 57 63 64 60 70 71 59 53 61 13 51 77 79 42 62
+			}
+			poptype_rights = {
+			    {
+			        culture = messapian
+			        type = citizen
+			    }
 			}
 		}
 		# Julii
@@ -61,8 +91,15 @@ country = {
 			}
 
 			capital = 103
+			family = 9355
 			own_control_core = 	{
 				18 23 103 104 110 118 119 109 111 14 17 21 22 112 113 102 105 108
+			}
+			poptype_rights = {
+			    {
+			        culture = etruscan
+			        type = citizen
+			    }
 			}
 		}
 		# Scipii
@@ -85,9 +122,20 @@ country = {
 				{ deity = 6 }
 				{ deity = 4 }
 			}
+			family = 9356
 			capital = 6
 			own_control_core = 	{
-				6 7 31 8 40 80 99 81 33 32 41 1716 1718 44 45 27 24 1712
+				6 7 31 8 40 80 99 81 33 32 41 1716 1718 44 45 27 24 1712 7838 82 7839 100
+			}
+			poptype_rights = {
+			    {
+			        culture = samnite
+			        type = citizen
+			    }
+			    {
+			        culture = syracusan
+			        type = citizen
+			    }
 			}
 		}
 	}

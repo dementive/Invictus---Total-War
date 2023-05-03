@@ -7,5 +7,10 @@
 itw_game_start_pulse = {
 	effect = {
 		add_roman_unity_opinions = yes
+		p:103 = {
+			every_pops_in_province = {
+				set_pop_culture = roman
+			}
+		}
 	}
 }
