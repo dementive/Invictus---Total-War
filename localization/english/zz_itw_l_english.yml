@@ -10,6 +10,10 @@ QSC_ADJ:0 "Scipii"
 QSS:0 "Roman Senate"
 QSS_ADJ:0 "Roman Senate"
 
+julii_start:0 "#T Julii#!\n#G The House of Julii have missions to conquer Gaul in the name of Rome#!"
+brutii_start:0 "#T Brutii#!\n#G The House of Brutii have missions to conquer Greece in the name of Rome#!"
+scipii_start:0 "#T Scipii#!\n#G The House of Scipii have missions to conquer Carthage in the name of Rome#!"
+
 
 senate_roman_heritage:0 "Roman Senate"
 senate_roman_heritage_desc:0 "$roman_heritage_desc$"
