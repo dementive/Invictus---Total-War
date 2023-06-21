@@ -52,11 +52,33 @@
         }
     }
 
+    # The End of Umbria
+    julii_01_missions_task_2 = {
+        icon = "task_political"
+        requires = { julii_01_missions_task_1 }
+        allow = {
+            
+        }
+        on_completion = {
+
+        }
+    }
+
+    # Dominate the Etruscans
+    julii_01_missions_task_3 = {
+        icon = "task_political"
+        requires = { julii_01_missions_task_1 }
+        allow = {
+            war_with = c:ETR
+        }
+        on_completion = {
+            # Add modifier
+        }
+    }
+
     julii_01_missions_task_final = {
         icon = "task_political"
         final = yes
-
-        potential = {}
 
         allow = {
             always = no

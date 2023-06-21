@@ -17,7 +17,7 @@ QBR = {
 QJU = {
 	pattern = "pattern_solid.tga"
 	color1 = "roman_red"
-	color2 = "roman_gold"
+	color2 = "roman_red"
 
 	textured_emblem = {
 		texture = "te_julii.dds"
@@ -31,7 +31,7 @@ QJU = {
 QSC = {
 	pattern = "pattern_solid.tga"
 	color1 = "romans_scipii"
-	color2 = "roman_gold"
+	color2 = "romans_scipii"
 
 	colored_emblem = {
 		texture = "ce_scipii.dds"
@@ -46,7 +46,7 @@ QSC = {
 ROM = {
 	pattern = "pattern_solid.tga"
 	color1 = "romans_senate"
-	color2 = "roman_gold"
+	color2 = "romans_senate"
 
 	colored_emblem = {
 		texture = "ce_senate.dds"
@@ -74,7 +74,7 @@ CAR = {
 MAC = {
 	pattern = "pattern_solid.tga"
 	color1 = "pitch_black"
-	color2 = "roman_gold"
+	color2 = "pitch_black"
 
 	textured_emblem = {
 		texture = "te_macedon.dds"
